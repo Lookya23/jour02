@@ -6,7 +6,7 @@
 /*   By: mplattee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 11:32:53 by mplattee          #+#    #+#             */
-/*   Updated: 2023/03/04 00:49:49 by mplattee         ###   ########.fr       */
+/*   Updated: 2023/03/04 01:23:12 by mplattee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -15,10 +15,10 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-int	main(void)
+/*int	main(void)
 {
 	char c;
 	c = 'm';
 	ft_putchar(c);
 	return (0);
-}
+}*/
